@@ -1,0 +1,119 @@
+/* https://fsi.ng/img/footer-img-tinted.537f1f02.png */
+/* https://fsi.ng/logo-dark.ico */
+/* background: #2cb357; */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+    margin: 0;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px 35px;
+}
+nav li a{
+    text-decoration: none;
+    color: #000
+}
+li.special-item{
+    border: 1px ridge #2cb357;
+    color: #2cb357;
+    padding: 1rem 2rem;
+    text-align: right;
+    border-radius: 5px;
+    font-weight: 400;
+
+}
+ button{
+    border: 2px ridge #2cb357;
+    background-color: #2cb357;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+
+}
+h1{
+    font-weight: 500;
+    font-size: 3em;
+}
+p.first-paragraph{
+    color: #00000091;
+    padding: 2rem;
+}
+p.first-paragraph,h1{
+    text-align: center;
+    padding-top: 25px;
+    line-height: 1.5em;
+}
+.works{
+    display: flex;
+    text-align: center;
+    line-height: 2em;
+    padding-top: 3em;
+}
+button:hover{
+    background-color: #fff;
+    color: #2cb357;
+}
+h2.heading2{
+    font-weight: 500;
+    font-size: 4em;
+    padding: 1.5em 2em 1.5em 3em;
+}
+#about-section p{
+    text-align: justify;
+    line-height: 2em;
+    margin-left: 1em;
+}
+#about-section p a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    line-height: 5px;
+    color: #00000091;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #2cb357;
+}
+#about-section{
+    display: relative;
+}
+section#about-section img,section#about-section p.aligned{
+    display: absolute;
+    right: 100px;
+    top: 15px;
+} 
+
+li.special-item:hover{
+    background-color: #2cb357;
+    color: #fff;
+}
+img.align{
+    padding-top: 3em;
+}
+#partners img{
+    padding: 20px;
+}
+section#partners,aside{
+    text-align: center;
+    width: 100%;
+}
+#partners h2{
+    font-size: 4em;
+    font-weight: 400;
+    text-align: center;
+}
+aside>h2{
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+}
+footer{
+    background-color: #2cb357;
+    color: #fff;
+}
+footer p.last-paragragh{
+    background-color: #fff;
+    color:  #0000005e;
+    padding: 2em;
+    padding-left: 20px;
+}
